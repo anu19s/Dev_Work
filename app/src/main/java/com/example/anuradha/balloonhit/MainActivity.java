@@ -36,7 +36,7 @@ implements  Balloon.BalloonListener {
     private int mScore,mPinUsed;
     TextView mScoreDisplay,mLevelDisplay;
     private List<ImageView>mPinImages=new ArrayList();
-    private ArrayList mBalloons =new ArrayList<>();
+    private List<Balloon> mBalloons =new ArrayList<>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
